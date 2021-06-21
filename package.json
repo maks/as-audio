@@ -1,0 +1,21 @@
+{
+  "name": "as-audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/sine_osc.ts --target debug",
+    "asbuild:optimized": "asc assembly/sine_osc.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
+    "clean": "rm -rf build/*"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.19.3"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.19.3"
+  }
+}
