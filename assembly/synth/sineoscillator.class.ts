@@ -1,5 +1,5 @@
-import { SAMPLERATE } from './environment';
-import { sin, PI } from './math/sin';
+import { SAMPLERATE } from '../environment';
+import { sin, PI } from '../math/sin';
 
 export class SineOscillator {
     position: u32 = 0;
