@@ -1,9 +1,9 @@
-**
+/**
  * Originally ported from http://rosettacode.org/wiki/Fast_Fourier_transform#C_sharp
  * 
  * Optimized by reusing Complex objects instead of creating new, avoiding garbage collection
-    * Precalculating of twiddles, making reuse of the FFT instance faster
-        * / 
+ * Precalculating of twiddles, making reuse of the FFT instance faster 
+ */
 
 
 export class Complex {
