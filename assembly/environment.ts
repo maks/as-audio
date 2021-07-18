@@ -1,1 +1,1 @@
-export const SAMPLERATE: f32 = 44100;
+export var SAMPLERATE: f32 = 44100;
